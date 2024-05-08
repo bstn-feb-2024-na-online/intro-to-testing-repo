@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    background-color: rgb(17, 106, 106);
+    padding-top: 2rem;
+}
+
+.storelist {
+    border: 2px solid lightgray;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f1d3;
+}
+
+.storecard {
+    margin: 1rem 0;
+    border: 1px solid darkolivegreen;
+    max-width: 12rem;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+button {
+    margin-top: 1rem;
+    border-radius: 5px;
+    border-color: yellow;
+    padding: 0.5rem 1rem;
+    color: darkslategrey;
+    font-weight: 800;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 2px lightgrey;
+    font-size: 1.25rem;
+}
